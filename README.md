@@ -21,19 +21,51 @@ $env:SUBSCRIPTION_ENDPOINT = "<cognitive_services_endpoint_url>"
 
 After that, you can run this file as a powershell script: `Right Click > Run with PowerShell`.
 
-## Example 1 - Appropriate Article Title
+## Example 1 - Appropriate Article Content
 
 ```text
-Enter article title: How to innovate using AI services
-Title: How to innovate using AI services
-Image: https://dalleproduse.blob.core.windows.net/private/images/7617047b-9dc0-4464-98be-806acebbc21d/generated_00.png?se=2023-06-28T12%3A16%3A26Z&sig=al0bgdUPyiy2orU4cYk1Xej6XkV6a22h6V9C%2BPmXMQM%3D&ske=2023-07-04T11%3A41%3A43Z&skoid=09ba021e-c417-441c-b203-c81e5dcd7b7f&sks=b&skt=2023-06-27T11%3A41%3A43Z&sktid=33e01921-4d64-4f8c-a055-5bdaffd5e33d&skv=2020-10-02&sp=r&spr=https&sr=b&sv=2020-10-02
+Enter article content: Artificial Intelligence (AI) reshapes companies and how innovation management
+is organized. Consistent with rapid technological development and the replacement of human organization,
+AI may indeed compel management to rethink a company's entire innovation process. In response, we
+review and explore the implications for future innovation management. Using ideas from the Carnegie
+School and the behavioral theory of the firm, we review the implications for innovation management
+of AI technologies and machine learning-based AI systems. We outline a framework showing the extent
+to which AI can replace humans and explain what is important to consider in making the transformation
+to the digital organization of innovation. We conclude our study by exploring directions for future research.
+
+"Rethinking Innovation Management: The Implications of AI and Machine Learning"
+
+Artificial Intelligence (AI) reshapes companies and how innovation management is organized.
+Consistent with rapid technological development and the replacement of human organization,
+AI may indeed compel management to rethink a company's entire innovation process. In response,
+we review and explore the implications for future innovation management. Using ideas from the
+Carnegie School and the behavioral theory of the firm, we review the implications for innovation
+management of AI technologies and machine learning-based AI systems. We outline a framework
+showing the extent to which AI can replace humans and explain what is important to consider in
+making the transformation to the digital organization of innovation. We conclude our study by
+exploring directions for future research.
+
+https://dalleproduse.blob.core.windows.net/private/images/e21e80cd-7c3b-4189-b568-c8955c75e905/generated_00.png?se=2023-06-28T17%3A15%3A34Z&sig=vyaP4fmUw12S5dypk8LUARHhOXfwYpmXX6LtUE7ERBM%3D&ske=2023-07-04T16%3A35%3A56Z&skoid=09ba021e-c417-441c-b203-c81e5dcd7b7f&sks=b&skt=2023-06-27T16%3A35%3A56Z&sktid=33e01921-4d64-4f8c-a055-5bdaffd5e33d&skv=2020-10-02&sp=r&spr=https&sr=b&sv=2020-10-02
 ```
 
-<img src="https://dalleproduse.blob.core.windows.net/private/images/7617047b-9dc0-4464-98be-806acebbc21d/generated_00.png?se=2023-06-28T12%3A16%3A26Z&sig=al0bgdUPyiy2orU4cYk1Xej6XkV6a22h6V9C%2BPmXMQM%3D&ske=2023-07-04T11%3A41%3A43Z&skoid=09ba021e-c417-441c-b203-c81e5dcd7b7f&sks=b&skt=2023-06-27T11%3A41%3A43Z&sktid=33e01921-4d64-4f8c-a055-5bdaffd5e33d&skv=2020-10-02&sp=r&spr=https&sr=b&sv=2020-10-02" width="250px" height="250px"/>
+<img src="https://dalleproduse.blob.core.windows.net/private/images/e21e80cd-7c3b-4189-b568-c8955c75e905/generated_00.png?se=2023-06-28T17%3A15%3A34Z&sig=vyaP4fmUw12S5dypk8LUARHhOXfwYpmXX6LtUE7ERBM%3D&ske=2023-07-04T16%3A35%3A56Z&skoid=09ba021e-c417-441c-b203-c81e5dcd7b7f&sks=b&skt=2023-06-27T16%3A35%3A56Z&sktid=33e01921-4d64-4f8c-a055-5bdaffd5e33d&skv=2020-10-02&sp=r&spr=https&sr=b&sv=2020-10-02" width="250px" height="250px"/>
 
-## Example 2 - Inappropriate Article Title
+## Example 2 - Inappropriate Article Content
 
 ```
-Enter article title: How to innovate using fucking AI services
-Content contains inappropriate terms: ['fucking']
+Enter article's content: The Fucking Artificial Intelligence (AI) reshapes companies and
+how innovation management is organized. Consistent with rapid technological development
+and the replacement of human organization, AI may indeed compel management to rethink a
+company's entire innovation process. In response, we review and explore the implications
+for future innovation management for this shit. Using ideas from the Carnegie School and
+the behavioral theory of the firm, we review the piss off implications for innovation
+management of AI technologies and machine learning-based AI systems. We outline a framework
+showing the extent to which AI can replace bastard humans and explain what is important to
+consider in making the transformation to the digital organization of innovation. We conclude
+our study by exploring directions for future research like Motherfuckers.
+
+Content contains inappropriate terms:
+- shit
+- fucking
+- motherfuckers
 ```
