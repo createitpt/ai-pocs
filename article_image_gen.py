@@ -1,10 +1,11 @@
 import os
 import openai
 
+
 openai.api_type = "azure"
 openai.api_base = os.getenv("OPENAI_URL")
-openai.api_version = "2023-06-01-preview"
 openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_version = "2023-06-01-preview"
 
 
 def generate_image_url(text: str) -> str:
