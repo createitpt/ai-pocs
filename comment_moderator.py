@@ -9,7 +9,7 @@ def moderate_content(text: str) -> dict:
     Moderate content using Azure Content Moderator.
     """
     client = ContentModeratorClient(
-        endpoint='https://content-moderator-vrb.cognitiveservices.azure.com/',
+        endpoint=os.getenv('SUBSCRIPTION_ENDPOINT'),
         credentials=CognitiveServicesCredentials(os.getenv('SUBSCRIPTION_KEY'))
     )
     screen = client.text_moderation.screen_text(

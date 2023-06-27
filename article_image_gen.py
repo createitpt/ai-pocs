@@ -2,7 +2,7 @@ import os
 import openai
 
 openai.api_type = "azure"
-openai.api_base = "https://testopaius.openai.azure.com/"
+openai.api_base = os.getenv("OPENAI_URL")
 openai.api_version = "2023-06-01-preview"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
