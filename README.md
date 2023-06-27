@@ -10,7 +10,16 @@ Artificial Intelligence - Proof of Concepts
 
 ## Running
 
-To be able to run the code, you first need to set the `environment variables` into `run_app.ps1` powershell file. Open this file with a text editor and set the variables there with your API keys. After that, you can run this file `Right Click > Run with PowerShell`.
+To be able to run the code, you first need to set the `environment variables` into `run_app.ps1` powershell file. Open this file with a text editor and set the variables there with your API keys and endpoint URLs:
+
+```powershell
+$env:OPENAI_API_KEY = "<openai_key>"
+$env:OPENAI_URL = "<openai_endpoint_url>"
+$env:SUBSCRIPTION_KEY = "<cognitive_services_key>"
+$env:SUBSCRIPTION_ENDPOINT = "<cognitive_services_endpoint_url>"
+```
+
+After that, you can run this file as a powershell script: `Right Click > Run with PowerShell`.
 
 ## Example 1 - Appropriate Article Title
 
