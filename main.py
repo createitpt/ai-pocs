@@ -5,8 +5,7 @@ from article_image_gen import generate_image_url
 from comment_moderator import moderate_content
 
 
-article_title = 'Idea generation model for cells'
-# article_title = 'Idea generation model for fucking cells'
+article_title = input('Enter article title: ')
 
 try:
     moderated_content = moderate_content(article_title)
